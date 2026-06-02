@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final-year CSE (AI & ML) student | Building explainable, real-world AI">
+    <title>Sriram Charan Vempati | AI & ML Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Simple Animated Background -->
+    <div id="particles-bg"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">&lt;Sriram/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content reveal">
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Sriram Charan Vempati</h1>
+            <h2 class="typewriter-container">
+                <span id="typewriter"></span><span class="cursor">|</span>
+            </h2>
+            <p class="summary">Final-year CSE (AI & ML) student | Building explainable, real-world AI</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects <i class='bx bx-chevron-right'></i></a>
+                <a href="resume.pdf" class="btn btn-secondary"><i class='bx bx-download'></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="number">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal fade-left">
+                    <p>Hello! I'm Sriram, a final-year Computer Science student specializing in <span class="highlight">Artificial Intelligence and Machine Learning</span> at SCSVMV University. Having strong skills in Python, Machine Learning, Web Development, and Data Analysis. Slightly experienced in building academic and real-world projects using OpenCV, Data Science Toolkit and Machine Learning.</p>
+                    <p>My journey into tech started with web development, but my fascination with how machines learn quickly drew me into the world of AI. Today, my focus is on building explainable AI systems—because detecting deepfakes or diagnosing diseases requires transparency and trust, not just a black box.</p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class='bx bx-brain'></i>
+                            <div>
+                                <h4>AI & ML Specialization</h4>
+                                <p>Deep Learning, XAI, Computer Vision.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class='bx bx-code-alt'></i>
+                            <div>
+                                <h4>Full-Stack Integrator</h4>
+                                <p>Deploying models with FastAPI & Next.js.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal fade-right">
+                    <div class="image-wrapper">
+                        <img src="image.jpg" alt="Sriram Charan Vempati" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-darker">
+        <div class="container">
+            <h2 class="section-title text-right reveal">Skills <span class="number">.02</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass reveal slide-up">
+                    <h3><i class='bx bx-terminal'></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>Java</span><span>C</span><span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-card glass reveal slide-up" style="transition-delay: 0.1s;">
+                    <h3><i class='bx bx-network-chart'></i> Machine Learning & AI</h3>
+                    <div class="skill-tags">
+                        <span>Scikit-learn</span><span>PyTorch</span><span>OpenCV</span><span>NLP</span><span>SHAP</span><span>LIME</span><span>XGBoost</span>
+                    </div>
+                </div>
+                <div class="skill-card glass reveal slide-up" style="transition-delay: 0.2s;">
+                    <h3><i class='bx bx-window-alt'></i> Web Development</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Node.js</span><span>PHP</span><span>React</span>
+                    </div>
+                </div>
+                <div class="skill-card glass reveal slide-up" style="transition-delay: 0.3s;">
+                    <h3><i class='bx bx-data'></i> Databases & Tools</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub</span><span>FastAPI</span><span>Streamlit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="number">03.</span> Projects</h2>
+            <div class="projects-grid">
+                <!-- MedXplain -->
+                <div class="project-card glass featured reveal scale-up">
+                    <div class="card-header">
+                        <div class="featured-badge"><i class='bx bxs-star'></i> Featured Project</div>
+                        <div class="links">
+                            <a href="https://github.com/vempatisriramcharan/MedXplain"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>MedXplain <span class="year">(2026)</span></h3>
+                        <p>Explainable AI medical diagnosis platform detecting 3+ diseases with high accuracy.</p>
+                        <div class="metric"><span class="highlight">Metric:</span> 91% accuracy</div>
+                    </div>
+                    <div class="card-footer">
+                        <span>Python</span><span>Streamlit</span><span>SHAP</span><span>LIME</span><span>PyTorch</span>
+                    </div>
+                </div>
+
+                <!-- DeepGuard -->
+                <div class="project-card glass featured reveal scale-up" style="transition-delay: 0.1s;">
+                    <div class="card-header">
+                        <div class="featured-badge"><i class='bx bxs-star'></i> Featured Project</div>
+                        <div class="links">
+                            <a href="https://github.com/vempatisriramcharan/DeepGuard"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>DeepGuard <span class="year">(2026)</span></h3>
+                        <p>Multimodal deepfake detection system combining vision and audio analysis.</p>
+                        <div class="metric"><span class="highlight">Metric:</span> 96%+ detection rate</div>
+                    </div>
+                    <div class="card-footer">
+                        <span>CNN+LSTM</span><span>FastAPI</span><span>OpenCV</span><span>React</span>
+                    </div>
+                </div>
+
+                <!-- NEON FLUX -->
+                <div class="project-card glass reveal scale-up" style="transition-delay: 0.2s;">
+                    <div class="card-header">
+                        <div class="project-icon"><i class='bx bx-joystick'></i></div>
+                        <div class="links">
+                            <a href="https://github.com/vempatisriramcharan/Neonshooter"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>NEON FLUX ∞ <span class="year">(2026)</span></h3>
+                        <p>Real-time multiplayer browser game with a cyberpunk aesthetic.</p>
+                        <div class="metric"><span class="highlight">Metric:</span> Low latency Sync</div>
+                    </div>
+                    <div class="card-footer">
+                        <span>Node.js</span><span>WebSockets</span><span>HTML5 Canvas</span>
+                    </div>
+                </div>
+
+                <!-- Climate Data -->
+                <div class="project-card glass reveal scale-up" style="transition-delay: 0.3s;">
+                    <div class="card-header">
+                        <div class="project-icon"><i class='bx bx-bar-chart-alt-2'></i></div>
+                        <div class="links">
+                            <a href="https://github.com/vempatisriramcharan/CLimate-Analysis"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Climate Data EDA <span class="year">(2025)</span></h3>
+                        <p>Exploratory data analysis on climate shifts using natural language processing.</p>
+                        <div class="metric"><span class="highlight">Metric:</span> Insight visualization</div>
+                    </div>
+                    <div class="card-footer">
+                        <span>NLP</span><span>Python</span><span>Pandas</span><span>Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-darker">
+        <div class="container">
+            <h2 class="section-title text-right reveal">Education & Certifications <span class="number">.04</span></h2>
+            <div class="edu-grid">
+                <!-- Education Timeline -->
+                <div class="timeline-container reveal fade-left">
+                    <h3 class="subsection-title"><i class='bx bxs-graduation'></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass">
+                                <div class="timeline-header">
+                                    <span class="period">2023–2027</span>
+                                    <span class="score">CGPA: 8.17</span>
+                                </div>
+                                <h4>Bachelor of Engineering in Computer Science & Engineering(AI & ML)</h4>
+                                <p>SCSVMV University,TN</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass">
+                                <div class="timeline-header">
+                                    <span class="period">2023</span>
+                                    <span class="score">85.1%</span>
+                                </div>
+                                <h4>Class XII MPC</h4>
+                                <p>Board of Intermediate, AP</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass">
+                                <div class="timeline-header">
+                                    <span class="period">2021</span>
+                                    <span class="score">98.2%</span>
+                                </div>
+                                <h4>Class X SSC</h4>
+                                <p>Board of Secondary, AP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certs-container reveal fade-right">
+                    <h3 class="subsection-title"><i class='bx bxs-certification'></i> Certifications</h3>
+                    <div class="certs-list">
+                        <div class="cert-item glass">
+                            <span class="cert-icon">🐍</span>
+                            <div class="cert-info">
+                                <h4>Python 101 for Data Science</h4>
+                                <p>IBM</p>
+                            </div>
+                        </div>
+                        <div class="cert-item glass">
+                            <span class="cert-icon">🗄️</span>
+                            <div class="cert-info">
+                                <h4>Database Programming with SQL</h4>
+                                <p>Oracle Academy</p>
+                            </div>
+                        </div>
+                        <div class="cert-item glass">
+                            <span class="cert-icon">👁️</span>
+                            <div class="cert-info">
+                                <h4>OpenCV Bootcamp</h4>
+                                <p>OpenCV University</p>
+                            </div>
+                        </div>
+                        <div class="cert-item glass">
+                            <span class="cert-icon">☁️</span>
+                            <div class="cert-info">
+                                <h4>AWS from Zero to Cloud</h4>
+                                <p>HCL / GUVI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding relative">
+        <div class="contact-glow"></div>
+        <div class="container text-center reveal">
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-text">I'm currently looking for new opportunities to apply my skills in AI, ML, and Web Development. Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!</p>
+            <a href="mailto:vempatisriramcharan3@gmail.com" class="btn btn-primary btn-large"><i class='bx bx-send'></i> Say Hello</a>
+            
+            <div class="social-links">
+                <a href="mailto:vempatisriramcharan3@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
+                <a href="https://github.com/vempatisriramcharan" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/sriram-charan-vempati-739a902b5/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by Sriram Charan Vempati &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
